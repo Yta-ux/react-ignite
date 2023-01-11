@@ -1,0 +1,34 @@
+.container {
+  margin-top: 6.4rem;
+}
+.headerList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerList div {
+  display: inherit;
+  align-items: inherit;
+  gap: 0.8rem;
+  color: var(--gray-200);
+  font-weight: 700;
+}
+
+.headerList div:first-child strong {
+  color: var(--blue-400);
+}
+
+.headerList div:last-child strong {
+  color: var(--purple-400);
+}
+
+.headerList div p {
+  background-color: var(--gray-400);
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+}
+
+.listTask {
+  margin-top: 2.4rem;
+}

@@ -1,0 +1,84 @@
+.container {
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  display: flex;
+  width: 100%;
+  gap: 1.2rem;
+  justify-content: space-between;
+  padding: 1.6rem;
+  color: var(--gray-100);
+  border-radius: 8px;
+}
+
+.container:not(:first-child){
+  margin-top: 1.2rem;
+}
+
+.customCheckbox input {
+  display: none;
+}
+
+.customCheckbox input + label:before {
+  content: "";
+  display: flex;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  border: 2px solid var(--blue-400);
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.customCheckbox input:checked + label:before {
+  background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: var(--purple-500);
+  border-color: var(--purple-500);
+  background-position: center;
+  transition: background-color 0.2s;
+}
+
+.customCheckbox input:not(:checked) + label:hover:before {
+  background-color: var(--blue-500);
+  opacity: 0.2;
+}
+
+.customCheckbox input:checked + label:hover:before {
+  background-color: var(--purple-400);
+  border-color: var(--purple-400);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.content p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  word-break: break-all;
+}
+
+.textMark {
+  font-size: 20px;
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.btnDelete{
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-300);
+  padding: .5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.container .btnDelete:hover {
+  color: var(--red);
+  background-color: var(--gray-400);
+  border-radius: 4px;
+}
