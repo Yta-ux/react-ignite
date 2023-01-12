@@ -7,7 +7,7 @@
     <a href="#-observações">📌 Observações</a>
 </p>
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; flex-wrap: wrap"  align="center">
-    <img width="600" style="border-radius: 5px" height="auto" alt="Página principal do Loki" src=".github/home.png"/>
+    <img width="600" style="border-radius: 5px" height="auto" alt="Página principal do Loki" src=".github/todo.jpeg"/>
 </div>
 
 
@@ -22,7 +22,7 @@ As tecnologias usadas nesse projeto foram:
 
 ## 🔗 Links
 
-🤖 Link para o projeto hospeado: [Todo List]()
+🤖 Link para o projeto hospeado: [Todo List](https://todo-list-hazel-six.vercel.app/)
 
 🎨 Link para o design do projeto: [Figma - Todo List](https://www.figma.com/file/SGEtlR5NGJezLRqvpaU7IH/ToDo-List-(Copy)?t=QMgPYJ7Zpq0boNCJ-0)
 
